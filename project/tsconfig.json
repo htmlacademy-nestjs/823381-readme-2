@@ -1,0 +1,34 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compileOnSave": false,
+  "files": [],
+  "references": [
+    {
+      "path": "./apps/account"
+    },
+    {
+      "path": "./posts-e2e"
+    },
+    {
+      "path": "./posts"
+    },
+    {
+      "path": "./apps/file-worker-e2e"
+    },
+    {
+      "path": "./apps/file-worker"
+    },
+    {
+      "path": "./apps/notifications-e2e"
+    },
+    {
+      "path": "./apps/notifications"
+    },
+    {
+      "path": "./services-e2e"
+    },
+    {
+      "path": "./services"
+    }
+  ]
+}
